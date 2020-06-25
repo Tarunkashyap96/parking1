@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write customer details"
+        android:text="Welcome in jai siddh baba parking.
+                      Vehicle.no is :         Fare :
+                      lalkuan Ghaziabad"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver Phone.no"
+        android:inputType="phone"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/Api_btn"
+        android:textColor="#fff"
+        android:background="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="API Message"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/text_message_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Message"
+        android:background="#FFC107"
+        >
+    </Button>
+
+
+</LinearLayout>

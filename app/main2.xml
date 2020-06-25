@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    android:background="@drawable/way"
+
+    >
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/whatsapp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:text="Booking Detials"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Vehicle.no : UP 14 MV 6420"
+            android:textColor="#040303"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Driver Id: nm347283"
+            android:textColor="#040303"
+            android:textSize="24sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Reached at: With in 20 Minutes"
+            android:textColor="#040303"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Fare : 1 KM = 7 INR"
+            android:textColor="#040303"
+            android:textSize="24sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:text="Driver No : 9650644656"
+            android:textColor="#040303"
+            android:textSize="24sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/Thankyou"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="250dp"
+            android:text="Confirm Booking"></Button>
+
+    </RelativeLayout>
+</LinearLayout>
